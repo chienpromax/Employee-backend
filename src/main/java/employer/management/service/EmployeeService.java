@@ -6,4 +6,6 @@ public interface EmployeeService {
     
     Employee saveEmployee(Employee employee);
     Iterable<Employee> getEmployee();
+    Employee getEmployeeById(Long id);
+    void deleteEmployeeById(Long id);
 }
